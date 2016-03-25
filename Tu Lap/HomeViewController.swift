@@ -10,6 +10,7 @@ import UIKit
 
 class HomeViewController: UITableViewController {
 
+  // MARK: - View Life Cycle
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +20,16 @@ class HomeViewController: UITableViewController {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
+  
+  // MARK: - Table View Delegate Methods
+  override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return 0
+  }
 
+  // MARK: - IBAction
+  @IBAction func refresh() {
+    
+  }
 
 }
 

@@ -12,6 +12,7 @@
 		9859C8CF1CA4B64600DE75A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9859C8CD1CA4B64600DE75A5 /* Main.storyboard */; };
 		9859C8D11CA4B64600DE75A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9859C8D01CA4B64600DE75A5 /* Assets.xcassets */; };
 		9859C8D41CA4B64600DE75A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9859C8D21CA4B64600DE75A5 /* LaunchScreen.storyboard */; };
+		9859C8DC1CA4B7A600DE75A5 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9859C8DB1CA4B7A600DE75A5 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9859C8D01CA4B64600DE75A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9859C8D31CA4B64600DE75A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9859C8D51CA4B64600DE75A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9859C8DB1CA4B7A600DE75A5 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				9859C8C91CA4B64600DE75A5 /* AppDelegate.swift */,
 				9859C8CB1CA4B64600DE75A5 /* HomeViewController.swift */,
+				9859C8DB1CA4B7A600DE75A5 /* ItemCell.swift */,
 				9859C8CD1CA4B64600DE75A5 /* Main.storyboard */,
 				9859C8D01CA4B64600DE75A5 /* Assets.xcassets */,
 				9859C8D21CA4B64600DE75A5 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				9859C8CC1CA4B64600DE75A5 /* HomeViewController.swift in Sources */,
 				9859C8CA1CA4B64600DE75A5 /* AppDelegate.swift in Sources */,
+				9859C8DC1CA4B7A600DE75A5 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
